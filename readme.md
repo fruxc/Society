@@ -25,7 +25,7 @@ composer install
 
 ### Make changes to your env file
 
-such as your DB_DATABASE, DB_USERNAME and DB_PASSWORD
+Such as your DB_DATABASE, DB_USERNAME and DB_PASSWORD
 
 Generate your application key using following command:
 
