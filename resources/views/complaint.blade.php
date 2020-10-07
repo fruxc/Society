@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">Complaint View</div><br>
                 <div class="col-sm-2">
-                  <a class="btn btn-sm btn-success" href="{{route('create.create')}}">Create Complaint</a>
+                    <a class="btn btn-sm btn-success" href="{{route('create.create')}}">Create Complaint</a>
                 </div>
                 <!-- <div class="card-body">
                     @if (session('status'))
@@ -46,7 +46,7 @@
                     </table>
                 </div>
             </div> -->
+            </div>
         </div>
     </div>
-</div>
-@endsection
+    @endsection

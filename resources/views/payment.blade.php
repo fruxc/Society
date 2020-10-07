@@ -17,36 +17,36 @@
                             <div class="row">
                                 <tr align="center">
                                     <div class="text-center col-md-6">
-                                      <th> ID </th>
-                                      <th> Chequeno </th>
-                                      <th> Deposit </th>
-                                      <th> cheque Date </th>
-                                      <th> Cash Date </th>
-                                      <th> Cash Paid to </th>
-                                      <th> Branch </th>
-                                      <th> Paid Via </th>
+                                        <th> ID </th>
+                                        <th> Chequeno </th>
+                                        <th> Deposit </th>
+                                        <th> cheque Date </th>
+                                        <th> Cash Date </th>
+                                        <th> Cash Paid to </th>
+                                        <th> Branch </th>
+                                        <th> Paid Via </th>
                                     </div>
                                 </tr>
                             </div>
                         </thead>
                         <tbody>
-                          <div class="row">
-                              @foreach($payment as $user)
-                              <tr align="center">
-                                  <div class="text-center col-md-6 col-md-offset-2">
-                                      <td><b> {{++$i}} </b></td>
-                                      <td> {{$user->chequeno}} </td>
-                                      <td> {{$user->deposit}} </td>
-                                      <td> {{$user->chequedate}} </td>
-                                      <td> {{$user->cashdate}} </td>
-                                      <td> {{$user->cpto}} </td>
-                                      <td> {{$user->branch}} </td>
-                                      <td> {{$user->paidvia}} </td>
-                                      <td></td>
-                                  </div>
-                              </tr>
-                              @endforeach
-                          </div>
+                            <div class="row">
+                                @foreach($payment as $user)
+                                <tr align="center">
+                                    <div class="text-center col-md-6 col-md-offset-2">
+                                        <td><b> {{++$i}} </b></td>
+                                        <td> {{$user->chequeno}} </td>
+                                        <td> {{$user->deposit}} </td>
+                                        <td> {{$user->chequedate}} </td>
+                                        <td> {{$user->cashdate}} </td>
+                                        <td> {{$user->cpto}} </td>
+                                        <td> {{$user->branch}} </td>
+                                        <td> {{$user->paidvia}} </td>
+                                        <td></td>
+                                    </div>
+                                </tr>
+                                @endforeach
+                            </div>
                         </tbody>
                     </table>
                 </div>

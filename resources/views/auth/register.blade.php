@@ -13,7 +13,7 @@
 
                         <div class="form-group row">
 
-                          <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
@@ -25,7 +25,7 @@
                                 @endif
                             </div>
 
-                          </div>
+                        </div>
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
@@ -59,20 +59,20 @@
                             <label for="wing" class="col-md-4 col-form-label text-md-right">{{ __('Wing') }}</label>
 
                             <div class="col-md-6">
-                              <select name="wing" id="wing" class="form-control{{ $errors->has('wing') ? ' is-invalid' : '' }}" required>
-                                <option></option>
-                                @foreach ($mwing as $data)
-                                  <option value="{{ $data->name }}"  >{{ $data->name }}</option>
-                                @endforeach
+                                <select name="wing" id="wing" class="form-control{{ $errors->has('wing') ? ' is-invalid' : '' }}" required>
+                                    <option></option>
+                                    @foreach ($mwing as $data)
+                                    <option value="{{ $data->name }}">{{ $data->name }}</option>
+                                    @endforeach
 
 
-                              </select>
+                                </select>
                             </div>
                         </div>
 
                         <div class="form-group row">
 
-                          <label for="flat" class="col-md-4 col-form-label text-md-right">{{ __('Flat') }}</label>
+                            <label for="flat" class="col-md-4 col-form-label text-md-right">{{ __('Flat') }}</label>
 
                             <div class="col-md-6">
                                 <input id="flat" type="text" class="form-control{{ $errors->has('flat') ? ' is-invalid' : '' }}" name="flat" value="{{ old('flat') }}" required autofocus>
@@ -84,23 +84,23 @@
                                 @endif
                             </div>
 
-                          </div>
+                        </div>
 
 
-                          <div class="form-group row">
-                              <label for="role" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
+                        <div class="form-group row">
+                            <label for="role" class="col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
 
-                              <div class="col-md-6">
+                            <div class="col-md-6">
                                 <select name="role" id="role" class="form-control{{ $errors->has('role') ? ' is-invalid' : '' }}" required>
-                                  <option></option>
-                                  @foreach ($role as $data)
-                                    <option value="{{ $data->name }}"  >{{ $data->name }}</option>
-                                  @endforeach
+                                    <option></option>
+                                    @foreach ($role as $data)
+                                    <option value="{{ $data->name }}">{{ $data->name }}</option>
+                                    @endforeach
 
 
                                 </select>
-                              </div>
-                          </div>
+                            </div>
+                        </div>
 
 
 

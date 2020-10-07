@@ -76,12 +76,12 @@
                             <label for="response" class="col-md-4 col-form-label text-md-right">{{ __('Response') }}</label>
 
                             <div class="col-md-6">
-                              <select name="response" id="response" class="form-control{{ $errors->has('response') ? ' is-invalid' : '' }}" required>
-                                <option></option>
-                                @foreach ($act as $data)
-                                  <option value="{{ $data->name }}"  >{{ $data->name }}</option>
-                                @endforeach
-                              </select>
+                                <select name="response" id="response" class="form-control{{ $errors->has('response') ? ' is-invalid' : '' }}" required>
+                                    <option></option>
+                                    @foreach ($act as $data)
+                                    <option value="{{ $data->name }}">{{ $data->name }}</option>
+                                    @endforeach
+                                </select>
                             </div>
                         </div>
 

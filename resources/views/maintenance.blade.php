@@ -16,17 +16,22 @@
                     </div>
                     @endif
                     <div>
-                      Name : {{ Auth::user()->name }}
-                    </div><div>
-                      Flat : {{ Auth::user()->flat }}
-                    </div><div>
-                      Wing : {{ Auth::user()->wing }}
-                    </div><div>
-                      Role : {{ Auth::user()->role }}
-                    </div><div>
-                      Email : {{ Auth::user()->email }}
-                    </div><div>
-                      Phone : {{ Auth::user()->phone }}
+                        Name : {{ Auth::user()->name }}
+                    </div>
+                    <div>
+                        Flat : {{ Auth::user()->flat }}
+                    </div>
+                    <div>
+                        Wing : {{ Auth::user()->wing }}
+                    </div>
+                    <div>
+                        Role : {{ Auth::user()->role }}
+                    </div>
+                    <div>
+                        Email : {{ Auth::user()->email }}
+                    </div>
+                    <div>
+                        Phone : {{ Auth::user()->phone }}
                     </div>
                     <table class="table table-hover">
                         <thead>
