@@ -13,8 +13,8 @@ It also generates PDF file of maintenance.
 
 ### Dependencies
 
-- PHP version >=v7.3
-- Composer >=v1.10.13
+- PHP version >= v7.3
+- Composer >= v1.10.13
 - Xampp Server >= v3.2.0
 
 ### Open terminal
