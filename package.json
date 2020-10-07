@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/laravel/laravel/issues"
   },
-  "homepage": "https://github.com/laravel/laravel#readme"
+  "homepage": "https://github.com/laravel/laravel#readme",
+  "dependencies": {
+    "node-forge": "^0.10.0",
+    "serialize-javascript": "^5.0.1"
+  }
 }
